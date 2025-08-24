@@ -1,0 +1,1497 @@
+{
+  "fonts": [
+    {
+      "id": "02sotpja0fvji3h",
+      "name": "Single Day",
+      "category": "DISPLAY",
+      "files": [
+        {
+          "filename": "SingleDay-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Single Day",
+      "fallback": "cursive",
+      "fontFamily": "'Single Day', cursive",
+      "isVariable": false,
+      "sampleText": "BREAKING NEWS"
+    },
+    {
+      "id": "05gutt76t92slb8",
+      "name": "Nerko One",
+      "category": "HANDWRITING",
+      "files": [
+        {
+          "filename": "NerkoOne-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Nerko One",
+      "fallback": "cursive",
+      "fontFamily": "'Nerko One', cursive",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps!"
+    },
+    {
+      "id": "3qx8nya7o059lco",
+      "name": "Mozilla Headline",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "MozillaHeadline[wdth,wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Mozilla Headline",
+      "fallback": "serif",
+      "fontFamily": "'Mozilla Headline', serif",
+      "isVariable": true,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "4crqhj3h8jfbkd6",
+      "name": "Special Gothic",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "SpecialGothic[wdth,wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Special Gothic",
+      "fallback": "serif",
+      "fontFamily": "'Special Gothic', serif",
+      "isVariable": true,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "4p3eiqeydywt3jj",
+      "name": "Prompt",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "Prompt-ExtraLightItalic.ttf",
+          "weight": 200,
+          "style": "italic"
+        },
+        {
+          "filename": "Prompt-MediumItalic.ttf",
+          "weight": 500,
+          "style": "italic"
+        },
+        {
+          "filename": "Prompt-Black.ttf",
+          "weight": 900,
+          "style": "normal"
+        },
+        {
+          "filename": "Prompt-Light.ttf",
+          "weight": 300,
+          "style": "normal"
+        },
+        {
+          "filename": "Prompt-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        },
+        {
+          "filename": "Prompt-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal"
+        },
+        {
+          "filename": "Prompt-ThinItalic.ttf",
+          "weight": 100,
+          "style": "italic"
+        },
+        {
+          "filename": "Prompt-Thin.ttf",
+          "weight": 100,
+          "style": "normal"
+        },
+        {
+          "filename": "Prompt-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "Prompt-SemiBoldItalic.ttf",
+          "weight": 600,
+          "style": "italic"
+        },
+        {
+          "filename": "Prompt-BlackItalic.ttf",
+          "weight": 900,
+          "style": "italic"
+        },
+        {
+          "filename": "Prompt-Italic.ttf",
+          "weight": 400,
+          "style": "italic"
+        },
+        {
+          "filename": "Prompt-ExtraBold.ttf",
+          "weight": 800,
+          "style": "normal"
+        },
+        {
+          "filename": "Prompt-ExtraBoldItalic.ttf",
+          "weight": 800,
+          "style": "italic"
+        },
+        {
+          "filename": "Prompt-ExtraLight.ttf",
+          "weight": 200,
+          "style": "normal"
+        },
+        {
+          "filename": "Prompt-BoldItalic.ttf",
+          "weight": 700,
+          "style": "italic"
+        },
+        {
+          "filename": "Prompt-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Prompt-LightItalic.ttf",
+          "weight": 300,
+          "style": "italic"
+        }
+      ],
+      "displayName": "Prompt",
+      "fallback": "serif",
+      "fontFamily": "'Prompt', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "4ryjfn6c164yri7",
+      "name": "Teachers",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "Teachers[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Teachers-Italic[wght].ttf",
+          "weight": 400,
+          "style": "italic"
+        }
+      ],
+      "displayName": "Teachers",
+      "fallback": "serif",
+      "fontFamily": "'Teachers', serif",
+      "isVariable": true,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "5z9eu1qjogoyl1j",
+      "name": "Yeseva One",
+      "category": "DISPLAY",
+      "files": [
+        {
+          "filename": "YesevaOne-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Yeseva One",
+      "fallback": "cursive",
+      "fontFamily": "'Yeseva One', cursive",
+      "isVariable": false,
+      "sampleText": "BREAKING NEWS"
+    },
+    {
+      "id": "6v1tfy3we9lflvn",
+      "name": "Victor Mono",
+      "category": "MONOSPACE",
+      "files": [
+        {
+          "filename": "VictorMono[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "VictorMono-Italic[wght].ttf",
+          "weight": 400,
+          "style": "italic"
+        }
+      ],
+      "displayName": "Victor Mono",
+      "fallback": "monospace",
+      "fontFamily": "'Victor Mono', monospace",
+      "isVariable": true,
+      "sampleText": "const tweet = \"Hello World\";"
+    },
+    {
+      "id": "7y6pux4v88g770v",
+      "name": "Trirong",
+      "category": "SERIF",
+      "files": [
+        {
+          "filename": "Trirong-ThinItalic.ttf",
+          "weight": 100,
+          "style": "italic"
+        },
+        {
+          "filename": "Trirong-Thin.ttf",
+          "weight": 100,
+          "style": "normal"
+        },
+        {
+          "filename": "Trirong-ExtraLight.ttf",
+          "weight": 200,
+          "style": "normal"
+        },
+        {
+          "filename": "Trirong-ExtraLightItalic.ttf",
+          "weight": 200,
+          "style": "italic"
+        },
+        {
+          "filename": "Trirong-Light.ttf",
+          "weight": 300,
+          "style": "normal"
+        },
+        {
+          "filename": "Trirong-LightItalic.ttf",
+          "weight": 300,
+          "style": "italic"
+        },
+        {
+          "filename": "Trirong-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Trirong-Italic.ttf",
+          "weight": 400,
+          "style": "italic"
+        },
+        {
+          "filename": "Trirong-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        },
+        {
+          "filename": "Trirong-MediumItalic.ttf",
+          "weight": 500,
+          "style": "italic"
+        },
+        {
+          "filename": "Trirong-SemiBoldItalic.ttf",
+          "weight": 600,
+          "style": "italic"
+        },
+        {
+          "filename": "Trirong-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal"
+        },
+        {
+          "filename": "Trirong-ExtraBoldItalic.ttf",
+          "weight": 800,
+          "style": "italic"
+        },
+        {
+          "filename": "Trirong-BlackItalic.ttf",
+          "weight": 900,
+          "style": "italic"
+        },
+        {
+          "filename": "Trirong-BoldItalic.ttf",
+          "weight": 700,
+          "style": "italic"
+        },
+        {
+          "filename": "Trirong-Black.ttf",
+          "weight": 900,
+          "style": "normal"
+        },
+        {
+          "filename": "Trirong-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "Trirong-ExtraBold.ttf",
+          "weight": 800,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Trirong",
+      "fallback": "serif",
+      "fontFamily": "'Trirong', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "92dkysofm4cwxrp",
+      "name": "Spirax",
+      "category": "DISPLAY",
+      "files": [
+        {
+          "filename": "Spirax-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Spirax",
+      "fallback": "cursive",
+      "fontFamily": "'Spirax', cursive",
+      "isVariable": false,
+      "sampleText": "BREAKING NEWS"
+    },
+    {
+      "id": "9wbwdn1er3git2t",
+      "name": "Yantramanav",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "Yantramanav-Thin.ttf",
+          "weight": 100,
+          "style": "normal"
+        },
+        {
+          "filename": "Yantramanav-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "Yantramanav-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        },
+        {
+          "filename": "Yantramanav-Black.ttf",
+          "weight": 900,
+          "style": "normal"
+        },
+        {
+          "filename": "Yantramanav-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Yantramanav-Light.ttf",
+          "weight": 300,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Yantramanav",
+      "fallback": "serif",
+      "fontFamily": "'Yantramanav', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "egd26toxu3n9zkv",
+      "name": "Taviraj",
+      "category": "SERIF",
+      "files": [
+        {
+          "filename": "Taviraj-LightItalic.ttf",
+          "weight": 300,
+          "style": "italic"
+        },
+        {
+          "filename": "Taviraj-ExtraLightItalic.ttf",
+          "weight": 200,
+          "style": "italic"
+        },
+        {
+          "filename": "Taviraj-BlackItalic.ttf",
+          "weight": 900,
+          "style": "italic"
+        },
+        {
+          "filename": "Taviraj-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal"
+        },
+        {
+          "filename": "Taviraj-ExtraLight.ttf",
+          "weight": 200,
+          "style": "normal"
+        },
+        {
+          "filename": "Taviraj-ExtraBoldItalic.ttf",
+          "weight": 800,
+          "style": "italic"
+        },
+        {
+          "filename": "Taviraj-Black.ttf",
+          "weight": 900,
+          "style": "normal"
+        },
+        {
+          "filename": "Taviraj-BoldItalic.ttf",
+          "weight": 700,
+          "style": "italic"
+        },
+        {
+          "filename": "Taviraj-Thin.ttf",
+          "weight": 100,
+          "style": "normal"
+        },
+        {
+          "filename": "Taviraj-ExtraBold.ttf",
+          "weight": 800,
+          "style": "normal"
+        },
+        {
+          "filename": "Taviraj-ThinItalic.ttf",
+          "weight": 100,
+          "style": "italic"
+        },
+        {
+          "filename": "Taviraj-MediumItalic.ttf",
+          "weight": 500,
+          "style": "italic"
+        },
+        {
+          "filename": "Taviraj-Light.ttf",
+          "weight": 300,
+          "style": "normal"
+        },
+        {
+          "filename": "Taviraj-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "Taviraj-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        },
+        {
+          "filename": "Taviraj-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Taviraj-SemiBoldItalic.ttf",
+          "weight": 600,
+          "style": "italic"
+        },
+        {
+          "filename": "Taviraj-Italic.ttf",
+          "weight": 400,
+          "style": "italic"
+        }
+      ],
+      "displayName": "Taviraj",
+      "fallback": "serif",
+      "fontFamily": "'Taviraj', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "egwdmddv9m4bjs2",
+      "name": "Tektur",
+      "category": "DISPLAY",
+      "files": [
+        {
+          "filename": "Tektur[wdth,wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Tektur",
+      "fallback": "cursive",
+      "fontFamily": "'Tektur', cursive",
+      "isVariable": true,
+      "sampleText": "BREAKING NEWS"
+    },
+    {
+      "id": "h1ufafypkqekk8o",
+      "name": "Ubuntu Mono",
+      "category": "MONOSPACE",
+      "files": [
+        {
+          "filename": "UbuntuMono-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "UbuntuMono-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "UbuntuMono-Italic.ttf",
+          "weight": 400,
+          "style": "italic"
+        },
+        {
+          "filename": "UbuntuMono-BoldItalic.ttf",
+          "weight": 700,
+          "style": "italic"
+        }
+      ],
+      "displayName": "Ubuntu Mono",
+      "fallback": "monospace",
+      "fontFamily": "'Ubuntu Mono', monospace",
+      "isVariable": false,
+      "sampleText": "const tweet = \"Hello World\";"
+    },
+    {
+      "id": "hdlk04j2bgyhb6r",
+      "name": "Syne",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "Syne[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Syne",
+      "fallback": "serif",
+      "fontFamily": "'Syne', serif",
+      "isVariable": true,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "mujbxoegvoygr7f",
+      "name": "Titillium Web",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "TitilliumWeb-ExtraLight.ttf",
+          "weight": 200,
+          "style": "normal"
+        },
+        {
+          "filename": "TitilliumWeb-ExtraLightItalic.ttf",
+          "weight": 200,
+          "style": "italic"
+        },
+        {
+          "filename": "TitilliumWeb-Italic.ttf",
+          "weight": 400,
+          "style": "italic"
+        },
+        {
+          "filename": "TitilliumWeb-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "TitilliumWeb-SemiBoldItalic.ttf",
+          "weight": 600,
+          "style": "italic"
+        },
+        {
+          "filename": "TitilliumWeb-BoldItalic.ttf",
+          "weight": 700,
+          "style": "italic"
+        },
+        {
+          "filename": "TitilliumWeb-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal"
+        },
+        {
+          "filename": "TitilliumWeb-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "TitilliumWeb-Light.ttf",
+          "weight": 300,
+          "style": "normal"
+        },
+        {
+          "filename": "TitilliumWeb-Black.ttf",
+          "weight": 900,
+          "style": "normal"
+        },
+        {
+          "filename": "TitilliumWeb-LightItalic.ttf",
+          "weight": 300,
+          "style": "italic"
+        }
+      ],
+      "displayName": "Titillium Web",
+      "fallback": "serif",
+      "fontFamily": "'Titillium Web', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "n1mfpmy8gry7k8n",
+      "name": "Mukta",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "Mukta-ExtraBold.ttf",
+          "weight": 800,
+          "style": "normal"
+        },
+        {
+          "filename": "Mukta-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Mukta-Light.ttf",
+          "weight": 300,
+          "style": "normal"
+        },
+        {
+          "filename": "Mukta-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal"
+        },
+        {
+          "filename": "Mukta-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "Mukta-ExtraLight.ttf",
+          "weight": 200,
+          "style": "normal"
+        },
+        {
+          "filename": "Mukta-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Mukta",
+      "fallback": "serif",
+      "fontFamily": "'Mukta', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "n30a6u2wbgpc0dj",
+      "name": "Protest Strike",
+      "category": "DISPLAY",
+      "files": [
+        {
+          "filename": "ProtestStrike-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Protest Strike",
+      "fallback": "cursive",
+      "fontFamily": "'Protest Strike', cursive",
+      "isVariable": false,
+      "sampleText": "BREAKING NEWS"
+    },
+    {
+      "id": "nhrj36ye92tgmy9",
+      "name": "Trade Winds",
+      "category": "DISPLAY",
+      "files": [
+        {
+          "filename": "TradeWinds-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Trade Winds",
+      "fallback": "cursive",
+      "fontFamily": "'Trade Winds', cursive",
+      "isVariable": false,
+      "sampleText": "BREAKING NEWS"
+    },
+    {
+      "id": "ujiqg6ua3fptekv",
+      "name": "Vollkorn",
+      "category": "SERIF",
+      "files": [
+        {
+          "filename": "Vollkorn[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Vollkorn-Italic[wght].ttf",
+          "weight": 400,
+          "style": "italic"
+        }
+      ],
+      "displayName": "Vollkorn",
+      "fallback": "serif",
+      "fontFamily": "'Vollkorn', serif",
+      "isVariable": true,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "1x3oqg7wk82xo5v",
+      "name": "Rokkitt VF Beta",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "RokkittVFBeta.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Rokkitt VF Beta",
+      "fallback": "serif",
+      "fontFamily": "'Rokkitt VF Beta', serif",
+      "isVariable": true,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "218ocr3yynfl11w",
+      "name": "Nanum Pen Script",
+      "category": "HANDWRITING",
+      "files": [
+        {
+          "filename": "NanumPenScript-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Nanum Pen Script",
+      "fallback": "cursive",
+      "fontFamily": "'Nanum Pen Script', cursive",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps!"
+    },
+    {
+      "id": "36pjk1nb688rjn1",
+      "name": "Noticia Text",
+      "category": "SERIF",
+      "files": [
+        {
+          "filename": "NoticiaText-BoldItalic.ttf",
+          "weight": 700,
+          "style": "italic"
+        },
+        {
+          "filename": "NoticiaText-Italic.ttf",
+          "weight": 400,
+          "style": "italic"
+        },
+        {
+          "filename": "NoticiaText-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "NoticiaText-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Noticia Text",
+      "fallback": "serif",
+      "fontFamily": "'Noticia Text', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "48hlm5r44q1m0te",
+      "name": "Square Peg",
+      "category": "HANDWRITING",
+      "files": [
+        {
+          "filename": "SquarePeg-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Square Peg",
+      "fallback": "cursive",
+      "fontFamily": "'Square Peg', cursive",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps!"
+    },
+    {
+      "id": "5157ulqhmza0jhf",
+      "name": "Winky Sans",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "WinkySans-Italic[wght].ttf",
+          "weight": 400,
+          "style": "italic"
+        },
+        {
+          "filename": "WinkySans[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Winky Sans",
+      "fallback": "serif",
+      "fontFamily": "'Winky Sans', serif",
+      "isVariable": true,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "5ctwxbiyttpqz1p",
+      "name": "KoPub Batang",
+      "category": "SERIF",
+      "files": [
+        {
+          "filename": "KoPubBatang-Bold.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "KoPubBatang-Light.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "KoPubBatang-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "KoPub Batang",
+      "fallback": "serif",
+      "fontFamily": "'KoPub Batang', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "859u2gdhfojm8zz",
+      "name": "The Girl Next Door",
+      "category": "HANDWRITING",
+      "files": [
+        {
+          "filename": "TheGirlNextDoor.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "The Girl Next Door",
+      "fallback": "cursive",
+      "fontFamily": "'The Girl Next Door', cursive",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps!"
+    },
+    {
+      "id": "apnpuw2fwpgec12",
+      "name": "Spline Sans Mono",
+      "category": "MONOSPACE",
+      "files": [
+        {
+          "filename": "SplineSansMono[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "SplineSansMono-Italic[wght].ttf",
+          "weight": 400,
+          "style": "italic"
+        }
+      ],
+      "displayName": "Spline Sans Mono",
+      "fallback": "monospace",
+      "fontFamily": "'Spline Sans Mono', monospace",
+      "isVariable": true,
+      "sampleText": "const tweet = \"Hello World\";"
+    },
+    {
+      "id": "c1ih7kvb0q68zk2",
+      "name": "Tirra",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "Tirra-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "Tirra-ExtraBold.ttf",
+          "weight": 800,
+          "style": "normal"
+        },
+        {
+          "filename": "Tirra-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        },
+        {
+          "filename": "Tirra-Black.ttf",
+          "weight": 900,
+          "style": "normal"
+        },
+        {
+          "filename": "Tirra-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Tirra-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Tirra",
+      "fallback": "serif",
+      "fontFamily": "'Tirra', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "dkeeecb9hfe8yfd",
+      "name": "Turret Road",
+      "category": "DISPLAY",
+      "files": [
+        {
+          "filename": "TurretRoad-Light.ttf",
+          "weight": 300,
+          "style": "normal"
+        },
+        {
+          "filename": "TurretRoad-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        },
+        {
+          "filename": "TurretRoad-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "TurretRoad-ExtraBold.ttf",
+          "weight": 800,
+          "style": "normal"
+        },
+        {
+          "filename": "TurretRoad-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "TurretRoad-ExtraLight.ttf",
+          "weight": 200,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Turret Road",
+      "fallback": "cursive",
+      "fontFamily": "'Turret Road', cursive",
+      "isVariable": false,
+      "sampleText": "BREAKING NEWS"
+    },
+    {
+      "id": "dp0omid3wqs39gl",
+      "name": "Solway",
+      "category": "SERIF",
+      "files": [
+        {
+          "filename": "Solway-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Solway-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        },
+        {
+          "filename": "Solway-Light.ttf",
+          "weight": 300,
+          "style": "normal"
+        },
+        {
+          "filename": "Solway-ExtraBold.ttf",
+          "weight": 800,
+          "style": "normal"
+        },
+        {
+          "filename": "Solway-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Solway",
+      "fallback": "serif",
+      "fontFamily": "'Solway', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "gtz819eep3p8yuv",
+      "name": "Yaldevi Colombo",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "YaldeviColombo-Light.ttf",
+          "weight": 300,
+          "style": "normal"
+        },
+        {
+          "filename": "YaldeviColombo-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        },
+        {
+          "filename": "YaldeviColombo-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "YaldeviColombo-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "YaldeviColombo-ExtraLight.ttf",
+          "weight": 200,
+          "style": "normal"
+        },
+        {
+          "filename": "YaldeviColombo-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Yaldevi Colombo",
+      "fallback": "serif",
+      "fontFamily": "'Yaldevi Colombo', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "i6te39fwzskq7l8",
+      "name": "Ubuntu Sans Mono",
+      "category": "MONOSPACE",
+      "files": [
+        {
+          "filename": "UbuntuSansMono-Italic[wght].ttf",
+          "weight": 400,
+          "style": "italic"
+        },
+        {
+          "filename": "UbuntuSansMono[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Ubuntu Sans Mono",
+      "fallback": "monospace",
+      "fontFamily": "'Ubuntu Sans Mono', monospace",
+      "isVariable": true,
+      "sampleText": "const tweet = \"Hello World\";"
+    },
+    {
+      "id": "iqix8l5cwdox342",
+      "name": "Noto Nastaliq Urdu",
+      "category": "SERIF",
+      "files": [
+        {
+          "filename": "NotoNastaliqUrdu[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Noto Nastaliq Urdu",
+      "fallback": "serif",
+      "fontFamily": "'Noto Nastaliq Urdu', serif",
+      "isVariable": true,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "irhho0fmj0jhq97",
+      "name": "Smooch Sans",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "SmoochSans[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Smooch Sans",
+      "fallback": "serif",
+      "fontFamily": "'Smooch Sans', serif",
+      "isVariable": true,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "j38tgh3oi7zdhqw",
+      "name": "Skranji",
+      "category": "DISPLAY",
+      "files": [
+        {
+          "filename": "Skranji-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "Skranji-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Skranji",
+      "fallback": "cursive",
+      "fontFamily": "'Skranji', cursive",
+      "isVariable": false,
+      "sampleText": "BREAKING NEWS"
+    },
+    {
+      "id": "jawcqt117q1egge",
+      "name": "Zen Old Mincho",
+      "category": "SERIF",
+      "files": [
+        {
+          "filename": "ZenOldMincho-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "ZenOldMincho-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "ZenOldMincho-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        },
+        {
+          "filename": "ZenOldMincho-Black.ttf",
+          "weight": 900,
+          "style": "normal"
+        },
+        {
+          "filename": "ZenOldMincho-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Zen Old Mincho",
+      "fallback": "serif",
+      "fontFamily": "'Zen Old Mincho', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "jpge3gzb0iladgz",
+      "name": "Yrsa",
+      "category": "SERIF",
+      "files": [
+        {
+          "filename": "Yrsa-Italic[wght].ttf",
+          "weight": 400,
+          "style": "italic"
+        },
+        {
+          "filename": "Yrsa[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Yrsa",
+      "fallback": "serif",
+      "fontFamily": "'Yrsa', serif",
+      "isVariable": true,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "ksz2q4gupv2rkwz",
+      "name": "Xanh Mono",
+      "category": "MONOSPACE",
+      "files": [
+        {
+          "filename": "XanhMono-Italic.ttf",
+          "weight": 400,
+          "style": "italic"
+        },
+        {
+          "filename": "XanhMono-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Xanh Mono",
+      "fallback": "monospace",
+      "fontFamily": "'Xanh Mono', monospace",
+      "isVariable": false,
+      "sampleText": "const tweet = \"Hello World\";"
+    },
+    {
+      "id": "lua6o9nf1n88fkd",
+      "name": "WindSong",
+      "category": "HANDWRITING",
+      "files": [
+        {
+          "filename": "WindSong-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "WindSong-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        }
+      ],
+      "displayName": "WindSong",
+      "fallback": "cursive",
+      "fontFamily": "'WindSong', cursive",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps!"
+    },
+    {
+      "id": "lx1xx622v8ph967",
+      "name": "Trispace",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "Trispace[wdth,wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Trispace",
+      "fallback": "serif",
+      "fontFamily": "'Trispace', serif",
+      "isVariable": true,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "nrc1mkxaicl0y2s",
+      "name": "Nanum Gothic Coding",
+      "category": "HANDWRITING",
+      "files": [
+        {
+          "filename": "NanumGothicCoding-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "NanumGothicCoding-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Nanum Gothic Coding",
+      "fallback": "cursive",
+      "fontFamily": "'Nanum Gothic Coding', cursive",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps!"
+    },
+    {
+      "id": "o1l3l9l5wuky9ke",
+      "name": "Tajawal",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "Tajawal-ExtraLight.ttf",
+          "weight": 200,
+          "style": "normal"
+        },
+        {
+          "filename": "Tajawal-Black.ttf",
+          "weight": 900,
+          "style": "normal"
+        },
+        {
+          "filename": "Tajawal-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Tajawal-Medium.ttf",
+          "weight": 500,
+          "style": "normal"
+        },
+        {
+          "filename": "Tajawal-ExtraBold.ttf",
+          "weight": 800,
+          "style": "normal"
+        },
+        {
+          "filename": "Tajawal-Light.ttf",
+          "weight": 300,
+          "style": "normal"
+        },
+        {
+          "filename": "Tajawal-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Tajawal",
+      "fallback": "serif",
+      "fontFamily": "'Tajawal', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "o77aa38j0ox3sce",
+      "name": "Trochut",
+      "category": "DISPLAY",
+      "files": [
+        {
+          "filename": "Trochut-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Trochut-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "Trochut-Italic.ttf",
+          "weight": 400,
+          "style": "italic"
+        }
+      ],
+      "displayName": "Trochut",
+      "fallback": "cursive",
+      "fontFamily": "'Trochut', cursive",
+      "isVariable": false,
+      "sampleText": "BREAKING NEWS"
+    },
+    {
+      "id": "opsqamthtgsnlcu",
+      "name": "Unna",
+      "category": "SERIF",
+      "files": [
+        {
+          "filename": "Unna-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        },
+        {
+          "filename": "Unna-Italic.ttf",
+          "weight": 400,
+          "style": "italic"
+        },
+        {
+          "filename": "Unna-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "Unna-BoldItalic.ttf",
+          "weight": 700,
+          "style": "italic"
+        }
+      ],
+      "displayName": "Unna",
+      "fallback": "serif",
+      "fontFamily": "'Unna', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "pdokxl7l209wt52",
+      "name": "Silkscreen",
+      "category": "DISPLAY",
+      "files": [
+        {
+          "filename": "Silkscreen-Bold.ttf",
+          "weight": 700,
+          "style": "normal"
+        },
+        {
+          "filename": "Silkscreen-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Silkscreen",
+      "fallback": "cursive",
+      "fontFamily": "'Silkscreen', cursive",
+      "isVariable": false,
+      "sampleText": "BREAKING NEWS"
+    },
+    {
+      "id": "tkrz0rftdixurg0",
+      "name": "Sometype Mono",
+      "category": "MONOSPACE",
+      "files": [
+        {
+          "filename": "SometypeMono-Italic[wght].ttf",
+          "weight": 400,
+          "style": "italic"
+        },
+        {
+          "filename": "SometypeMono[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Sometype Mono",
+      "fallback": "monospace",
+      "fontFamily": "'Sometype Mono', monospace",
+      "isVariable": true,
+      "sampleText": "const tweet = \"Hello World\";"
+    },
+    {
+      "id": "yqhpixmyh4h57qg",
+      "name": "M PLUS 1 Code",
+      "category": "MONOSPACE",
+      "files": [
+        {
+          "filename": "MPLUS1Code[wght].ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "M PLUS 1 Code",
+      "fallback": "monospace",
+      "fontFamily": "'M PLUS 1 Code', monospace",
+      "isVariable": true,
+      "sampleText": "const tweet = \"Hello World\";"
+    },
+    {
+      "id": "1ifhh8z6dkgny62",
+      "name": "Tenali Ramakrishna",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "TenaliRamakrishna-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Tenali Ramakrishna",
+      "fallback": "serif",
+      "fontFamily": "'Tenali Ramakrishna', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": "1lfgw4o20sjw1e0",
+      "name": "Mooli",
+      "category": "SANS_SERIF",
+      "files": [
+        {
+          "filename": "Mooli-Regular.ttf",
+          "weight": 400,
+          "style": "normal"
+        }
+      ],
+      "displayName": "Mooli",
+      "fallback": "serif",
+      "fontFamily": "'Mooli', serif",
+      "isVariable": false,
+      "sampleText": "The quick brown fox jumps over the lazy dog"
+    }
+  ],
+  "total": 50,
+  "categories": [
+    "DISPLAY",
+    "HANDWRITING",
+    "SANS_SERIF",
+    "MONOSPACE",
+    "SERIF"
+  ]
+}

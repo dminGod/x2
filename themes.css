@@ -1,0 +1,934 @@
+/* Original Theme (Default - no changes) */
+body[data-theme="original"] {
+  /* No modifications - use Twitter's default */
+}
+
+/* Midnight Dream Theme - Deep blue/purple night theme */
+body[data-theme="midnight"] {
+  background-color: #0a0e1a !important;
+  --color-background: 223 42% 7%;
+  --color-text: 240 5% 94%;
+  --color-border: 216 35% 25%;
+}
+
+/* Main layout areas */
+body[data-theme="midnight"] #react-root {
+  background-color: #0a0e1a !important;
+}
+
+body[data-theme="midnight"] [data-testid="primaryColumn"],
+body[data-theme="midnight"] [data-testid="sidebarColumn"] {
+  background-color: #0a0e1a !important;
+}
+
+/* Background color classes override */
+body[data-theme="midnight"] .r-14lw9ot,
+body[data-theme="midnight"] .r-x572qd {
+  background-color: #0a0e1a !important;
+}
+
+body[data-theme="midnight"] .r-kemksi {
+  background-color: #1a1f3a !important;
+}
+
+body[data-theme="midnight"] .r-yfoy6g {
+  background-color: #0f1420 !important;
+}
+
+/* Text color classes override */
+body[data-theme="midnight"] .r-18jsvk2,
+body[data-theme="midnight"] .r-14j79pv {
+  color: #e8e8f0 !important;
+}
+
+body[data-theme="midnight"] .r-1nao33i,
+body[data-theme="midnight"] .r-jwli3a,
+body[data-theme="midnight"] .r-vlxjld {
+  color: #ffffff !important;
+}
+
+/* Tweet/Article styling */
+body[data-theme="midnight"] article[data-testid="tweet"] {
+  background-color: #141929 !important;
+  border-color: #2a3f5f !important;
+}
+
+body[data-theme="midnight"] div[data-testid="cellInnerDiv"] {
+  border-color: #2a3f5f !important;
+}
+
+/* Navigation and sidebar */
+body[data-theme="midnight"] nav[role="navigation"] {
+  background-color: #0a0e1a !important;
+}
+
+body[data-theme="midnight"] [data-testid*="AppTabBar"] {
+  background-color: #0a0e1a !important;
+  border-color: #2a3f5f !important;
+}
+
+/* Buttons and interactive elements */
+body[data-theme="midnight"] [role="button"] {
+  color: #e8e8f0 !important;
+}
+
+body[data-theme="midnight"] [role="button"]:hover {
+  background-color: rgba(136, 153, 166, 0.1) !important;
+}
+
+body[data-theme="midnight"] a {
+  color: #6ea3f0 !important;
+}
+
+body[data-theme="midnight"] a:hover {
+  color: #8bb5f3 !important;
+  background-color: rgba(110, 163, 240, 0.1) !important;
+}
+
+/* Input fields */
+body[data-theme="midnight"] input,
+body[data-theme="midnight"] textarea,
+body[data-theme="midnight"] [contenteditable="true"] {
+  background-color: #1a1f3a !important;
+  color: #e8e8f0 !important;
+  border-color: #2a3f5f !important;
+}
+
+/* Modals and dropdowns */
+body[data-theme="midnight"] [role="dialog"],
+body[data-theme="midnight"] [data-testid="Dropdown"] {
+  background-color: #141929 !important;
+  border-color: #2a3f5f !important;
+}
+
+/* Trends and suggestions */
+body[data-theme="midnight"] [data-testid="trend"],
+body[data-theme="midnight"] [data-testid="UserCell"] {
+  background-color: #141929 !important;
+}
+
+body[data-theme="midnight"] [data-testid="trend"]:hover,
+body[data-theme="midnight"] [data-testid="UserCell"]:hover {
+  background-color: #1a1f3a !important;
+}
+
+/* Headers and text */
+body[data-theme="midnight"] h1,
+body[data-theme="midnight"] h2,
+body[data-theme="midnight"] h3,
+body[data-theme="midnight"] h4 {
+  color: #ffffff !important;
+}
+
+body[data-theme="midnight"] span,
+body[data-theme="midnight"] div[dir="ltr"],
+body[data-theme="midnight"] div[dir="auto"] {
+  color: #e8e8f0 !important;
+}
+
+/* Icons */
+body[data-theme="midnight"] svg {
+  color: #8899a6 !important;
+}
+
+body[data-theme="midnight"] svg[aria-label*="Verified"] {
+  color: #6ea3f0 !important;
+}
+
+/* Forest Zen Theme - Calming green nature theme */
+body[data-theme="forest"] {
+  background-color: #0f1f0f !important;
+  --color-background: 120 33% 8%;
+  --color-text: 120 20% 94%;
+  --color-border: 120 25% 30%;
+}
+
+/* Main layout areas */
+body[data-theme="forest"] #react-root {
+  background-color: #0f1f0f !important;
+}
+
+body[data-theme="forest"] [data-testid="primaryColumn"],
+body[data-theme="forest"] [data-testid="sidebarColumn"] {
+  background-color: #0f1f0f !important;
+}
+
+/* Background color classes override */
+body[data-theme="forest"] .r-14lw9ot,
+body[data-theme="forest"] .r-x572qd {
+  background-color: #0f1f0f !important;
+}
+
+body[data-theme="forest"] .r-kemksi {
+  background-color: #1a2f1a !important;
+}
+
+body[data-theme="forest"] .r-yfoy6g {
+  background-color: #142214 !important;
+}
+
+/* Text color classes override */
+body[data-theme="forest"] .r-18jsvk2,
+body[data-theme="forest"] .r-14j79pv {
+  color: #e8f5e8 !important;
+}
+
+body[data-theme="forest"] .r-1nao33i,
+body[data-theme="forest"] .r-jwli3a,
+body[data-theme="forest"] .r-vlxjld {
+  color: #f0faf0 !important;
+}
+
+/* Tweet/Article styling */
+body[data-theme="forest"] article[data-testid="tweet"] {
+  background-color: #1a2f1a !important;
+  border-color: #2d4a2d !important;
+}
+
+body[data-theme="forest"] div[data-testid="cellInnerDiv"] {
+  border-color: #2d4a2d !important;
+}
+
+/* Navigation and sidebar */
+body[data-theme="forest"] nav[role="navigation"] {
+  background-color: #0f1f0f !important;
+}
+
+body[data-theme="forest"] [data-testid*="AppTabBar"] {
+  background-color: #0f1f0f !important;
+  border-color: #2d4a2d !important;
+}
+
+/* Buttons and interactive elements */
+body[data-theme="forest"] [role="button"] {
+  color: #e8f5e8 !important;
+}
+
+body[data-theme="forest"] [role="button"]:hover {
+  background-color: rgba(127, 200, 127, 0.1) !important;
+}
+
+body[data-theme="forest"] a {
+  color: #7fc87f !important;
+}
+
+body[data-theme="forest"] a:hover {
+  color: #9dd69d !important;
+  background-color: rgba(127, 200, 127, 0.1) !important;
+}
+
+/* Input fields */
+body[data-theme="forest"] input,
+body[data-theme="forest"] textarea,
+body[data-theme="forest"] [contenteditable="true"] {
+  background-color: #1a2f1a !important;
+  color: #e8f5e8 !important;
+  border-color: #2d4a2d !important;
+}
+
+/* Modals and dropdowns */
+body[data-theme="forest"] [role="dialog"],
+body[data-theme="forest"] [data-testid="Dropdown"],
+body[data-theme="forest"] [data-testid="TypeaheadDropdown"] {
+  background-color: #1a2f1a !important;
+  border-color: #2d4a2d !important;
+}
+
+/* Trends and suggestions */
+body[data-theme="forest"] [data-testid="trend"],
+body[data-theme="forest"] [data-testid="UserCell"] {
+  background-color: #1a2f1a !important;
+}
+
+body[data-theme="forest"] [data-testid="trend"]:hover,
+body[data-theme="forest"] [data-testid="UserCell"]:hover {
+  background-color: #243824 !important;
+}
+
+/* Headers and text */
+body[data-theme="forest"] h1,
+body[data-theme="forest"] h2,
+body[data-theme="forest"] h3,
+body[data-theme="forest"] h4 {
+  color: #f0faf0 !important;
+}
+
+body[data-theme="forest"] span,
+body[data-theme="forest"] div[dir="ltr"],
+body[data-theme="forest"] div[dir="auto"] {
+  color: #e8f5e8 !important;
+}
+
+/* Icons */
+body[data-theme="forest"] svg {
+  color: #8fb58f !important;
+}
+
+body[data-theme="forest"] svg[aria-label*="Verified"] {
+  color: #7fc87f !important;
+}
+
+/* Common theme adjustments for both themes */
+body[data-theme="midnight"] [role="progressbar"],
+body[data-theme="forest"] [role="progressbar"] {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+body[data-theme="midnight"] [data-testid="placementTracking"],
+body[data-theme="forest"] [data-testid="placementTracking"] {
+  background-color: transparent !important;
+}
+
+/* Bottom bar styling */
+body[data-theme="midnight"] [data-testid="BottomBar"] {
+  background-color: #0a0e1a !important;
+  border-top-color: #2a3f5f !important;
+}
+
+body[data-theme="forest"] [data-testid="BottomBar"] {
+  background-color: #0f1f0f !important;
+  border-top-color: #2d4a2d !important;
+}
+
+/* Search bar */
+body[data-theme="midnight"] [data-testid="SearchBox_Search_Input"] {
+  background-color: #1a1f3a !important;
+  color: #e8e8f0 !important;
+}
+
+body[data-theme="forest"] [data-testid="SearchBox_Search_Input"] {
+  background-color: #1a2f1a !important;
+  color: #e8f5e8 !important;
+}
+
+/* Scrollbar styling */
+body[data-theme="midnight"] {
+  scrollbar-color: #2a3f5f #0a0e1a;
+}
+
+body[data-theme="forest"] {
+  scrollbar-color: #2d4a2d #0f1f0f;
+}
+
+/* Hacker News Theme - Classic HN orange and beige */
+body[data-theme="hackernews"] {
+  background-color: #f6f6ef !important;
+  --color-background: 60 29% 96%;
+  --color-text: 0 0% 0%;
+  --color-border: 30 14% 84%;
+  font-family: Verdana, Geneva, sans-serif !important;
+}
+
+/* Main layout areas */
+body[data-theme="hackernews"] #react-root {
+  background-color: #f6f6ef !important;
+}
+
+body[data-theme="hackernews"] [data-testid="primaryColumn"],
+body[data-theme="hackernews"] [data-testid="sidebarColumn"] {
+  background-color: #f6f6ef !important;
+}
+
+/* Ensure all sidebars and their children are beige, not orange */
+body[data-theme="hackernews"] aside,
+body[data-theme="hackernews"] aside > div,
+body[data-theme="hackernews"] [role="complementary"],
+body[data-theme="hackernews"] [role="complementary"] > div {
+  background-color: #f6f6ef !important;
+}
+
+/* Background color classes override - force beige, never orange */
+body[data-theme="hackernews"] .r-14lw9ot,
+body[data-theme="hackernews"] .r-x572qd,
+body[data-theme="hackernews"] .r-yfoy6g {
+  background-color: #f6f6ef !important;
+}
+
+body[data-theme="hackernews"] .r-kemksi {
+  background-color: #f6f6ef !important;
+}
+
+/* Any element with orange-like background - override it */
+body[data-theme="hackernews"] [style*="rgb(255, 102, 0)"],
+body[data-theme="hackernews"] [style*="#ff6600"],
+body[data-theme="hackernews"] [style*="#FF6600"] {
+  background-color: #f6f6ef !important;
+}
+
+/* Text color classes override */
+body[data-theme="hackernews"] .r-18jsvk2,
+body[data-theme="hackernews"] .r-14j79pv {
+  color: #000000 !important;
+}
+
+body[data-theme="hackernews"] .r-1nao33i,
+body[data-theme="hackernews"] .r-jwli3a,
+body[data-theme="hackernews"] .r-vlxjld {
+  color: #000000 !important;
+}
+
+/* Tweet/Article styling - minimal borders like HN */
+body[data-theme="hackernews"] article[data-testid="tweet"] {
+  background-color: #f6f6ef !important;
+  border: none !important;
+  border-bottom: 1px solid #dddddd !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+body[data-theme="hackernews"] div[data-testid="cellInnerDiv"] {
+  border: none !important;
+  border-bottom: 1px solid #dddddd !important;
+}
+
+/* Navigation and sidebar - NO orange, keep beige like HN */
+body[data-theme="hackernews"] nav[role="navigation"] {
+  background-color: #f6f6ef !important;
+}
+
+/* Override any header backgrounds - keep them beige */
+body[data-theme="hackernews"] header[role="banner"] {
+  background-color: #f6f6ef !important;
+}
+
+/* Left sidebar container - ensure it's beige */
+body[data-theme="hackernews"] [data-testid="primaryColumn"] > div:first-child,
+body[data-theme="hackernews"] [data-testid="sidebarColumn"] > div:first-child {
+  background-color: #f6f6ef !important;
+}
+
+/* Only the very top fixed header could have subtle orange - like HN */
+body[data-theme="hackernews"] [role="banner"]:first-child > div:first-child {
+  background-color: rgba(255, 102, 0, 0.9) !important;
+  height: 44px !important;
+}
+
+/* Navigation items - no background colors */
+body[data-theme="hackernews"] nav a,
+body[data-theme="hackernews"] nav [role="link"] {
+  background-color: transparent !important;
+}
+
+body[data-theme="hackernews"] nav a:hover,
+body[data-theme="hackernews"] nav [role="link"]:hover {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Navigation text - black for readability */
+body[data-theme="hackernews"] nav span,
+body[data-theme="hackernews"] nav svg {
+  color: #000000 !important;
+}
+
+/* Iconic orange border for tab bar - thinner design */
+body[data-theme="hackernews"] [role="tablist"][data-testid="ScrollSnap-List"] {
+  background-color: #f6f6ef !important;
+  border-bottom: 2px solid #ff6600 !important;
+  padding: 2px 0 !important;
+  min-height: 32px !important;
+}
+
+/* Tab text styling - dark text on beige background */
+body[data-theme="hackernews"] [role="tablist"] span {
+  color: #000000 !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+
+/* Tab links */
+body[data-theme="hackernews"] [role="tablist"] a {
+  color: #000000 !important;
+}
+
+/* Tab hover effect */
+body[data-theme="hackernews"] [role="tablist"] a:hover span {
+  color: #ff6600 !important;
+}
+
+/* Active tab indicator - make it black with orange underline only */
+body[data-theme="hackernews"] [role="tab"][aria-selected="true"] span {
+  color: #000000 !important;
+  font-weight: 700 !important;
+}
+
+/* Active tab underline - orange to match border */
+body[data-theme="hackernews"] [role="tab"][aria-selected="true"] > div > div:last-child {
+  background-color: #ff6600 !important;
+  height: 3px !important;
+}
+
+/* Buttons and interactive elements */
+body[data-theme="hackernews"] [role="button"] {
+  color: #000000 !important;
+  font-family: Verdana, Geneva, sans-serif !important;
+}
+
+body[data-theme="hackernews"] [role="button"]:hover {
+  background-color: rgba(255, 102, 0, 0.05) !important;
+}
+
+/* Links - HN style */
+body[data-theme="hackernews"] a {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+body[data-theme="hackernews"] a:hover {
+  text-decoration: underline !important;
+  background-color: transparent !important;
+}
+
+/* Verified badges and special links */
+body[data-theme="hackernews"] a[href*="/verified"],
+body[data-theme="hackernews"] svg[aria-label*="Verified"] {
+  color: rgba(255, 102, 0, 0.8) !important;
+}
+
+/* Input fields */
+body[data-theme="hackernews"] input,
+body[data-theme="hackernews"] textarea,
+body[data-theme="hackernews"] [contenteditable="true"] {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #dddddd !important;
+  font-family: Verdana, Geneva, sans-serif !important;
+}
+
+/* Modals and dropdowns */
+body[data-theme="hackernews"] [role="dialog"],
+body[data-theme="hackernews"] [data-testid="Dropdown"],
+body[data-theme="hackernews"] [data-testid="TypeaheadDropdown"] {
+  background-color: #f6f6ef !important;
+  border: 1px solid #dddddd !important;
+}
+
+/* Model selection modal for Hacker News theme */
+body[data-theme="hackernews"] .x2-modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+body[data-theme="hackernews"] .x2-model-modal {
+  background-color: #f6f6ef !important;
+  border: 2px solid #ff6600 !important;
+  color: #000000 !important;
+  box-shadow: 0 4px 20px rgba(255, 102, 0, 0.2) !important;
+}
+
+body[data-theme="hackernews"] .x2-model-modal h3 {
+  color: #000000 !important;
+  border-bottom: 1px solid #ff6600 !important;
+}
+
+body[data-theme="hackernews"] .x2-model-option {
+  background-color: #ffffff !important;
+  border: 1px solid #dddddd !important;
+  color: #000000 !important;
+}
+
+body[data-theme="hackernews"] .x2-model-option:hover {
+  background-color: rgba(255, 102, 0, 0.05) !important;
+  border-color: #ff6600 !important;
+}
+
+body[data-theme="hackernews"] .x2-model-option.selected {
+  background-color: rgba(255, 102, 0, 0.1) !important;
+  border-color: #ff6600 !important;
+}
+
+body[data-theme="hackernews"] .x2-modal-buttons button {
+  background-color: #ff6600 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+body[data-theme="hackernews"] .x2-modal-buttons button:hover {
+  background-color: #e55a00 !important;
+}
+
+body[data-theme="hackernews"] .x2-modal-buttons button.cancel {
+  background-color: #dddddd !important;
+  color: #000000 !important;
+}
+
+body[data-theme="hackernews"] .x2-modal-buttons button.cancel:hover {
+  background-color: #cccccc !important;
+}
+
+/* Trends and suggestions - remove orange borders */
+body[data-theme="hackernews"] [data-testid="trend"],
+body[data-theme="hackernews"] [data-testid="UserCell"] {
+  background-color: #f6f6ef !important;
+  border-left: 2px solid #dddddd !important;
+  padding-left: 8px !important;
+}
+
+body[data-theme="hackernews"] [data-testid="trend"]:hover,
+body[data-theme="hackernews"] [data-testid="UserCell"]:hover {
+  background-color: #ffffff !important;
+}
+
+/* Headers and text */
+body[data-theme="hackernews"] h1,
+body[data-theme="hackernews"] h2,
+body[data-theme="hackernews"] h3,
+body[data-theme="hackernews"] h4 {
+  color: #000000 !important;
+  font-family: Verdana, Geneva, sans-serif !important;
+  font-weight: normal !important;
+}
+
+body[data-theme="hackernews"] span,
+body[data-theme="hackernews"] div[dir="ltr"],
+body[data-theme="hackernews"] div[dir="auto"] {
+  color: #000000 !important;
+  font-family: Verdana, Geneva, sans-serif !important;
+}
+
+/* Icons */
+body[data-theme="hackernews"] svg {
+  color: #828282 !important;
+}
+
+/* Bottom bar styling - subtle, not orange */
+body[data-theme="hackernews"] [data-testid="BottomBar"] {
+  background-color: #f6f6ef !important;
+  border-top: 1px solid #dddddd !important;
+}
+
+/* Search bar */
+body[data-theme="hackernews"] [data-testid="SearchBox_Search_Input"] {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #dddddd !important;
+}
+
+/* Scrollbar styling */
+body[data-theme="hackernews"] {
+  scrollbar-color: #dddddd #f6f6ef;
+}
+
+/* Progress bars */
+body[data-theme="hackernews"] [role="progressbar"] {
+  background-color: rgba(255, 102, 0, 0.2) !important;
+}
+
+/* Composer tab styles for Hacker News theme */
+body[data-theme="hackernews"] .x2-tab {
+  color: #000000 !important;
+}
+
+body[data-theme="hackernews"] .x2-tab-active {
+  color: #ff6600 !important;
+  border-bottom-color: #ff6600 !important;
+}
+
+/* Translate and Use Reply buttons in Hacker News theme */
+body[data-theme="hackernews"] .x2-translate-btn,
+body[data-theme="hackernews"] .x2-use-reply-btn {
+  background: #ff6600 !important;
+  color: white !important;
+}
+
+body[data-theme="hackernews"] .x2-translate-btn:hover,
+body[data-theme="hackernews"] .x2-use-reply-btn:hover {
+  background: #e55a00 !important;
+}
+
+/* Translated text display - make it black */
+body[data-theme="hackernews"] .x2-translated-text {
+  color: #000000 !important;
+  background: rgba(255, 102, 0, 0.05) !important;
+  padding: 12px !important;
+  border-radius: 8px !important;
+}
+
+/* Caps content area */
+body[data-theme="hackernews"] .x2-caps-content {
+  background: #f6f6ef !important;
+  color: #000000 !important;
+}
+
+/* Timestamps and metadata - HN gray */
+body[data-theme="hackernews"] time,
+body[data-theme="hackernews"] [data-testid="app-text-transition-container"] {
+  color: #828282 !important;
+  font-size: 9pt !important;
+}
+
+/* Vote/like buttons - HN style */
+body[data-theme="hackernews"] [data-testid*="like"],
+body[data-theme="hackernews"] [data-testid*="unlike"],
+body[data-theme="hackernews"] [data-testid*="retweet"] {
+  color: #828282 !important;
+}
+
+body[data-theme="hackernews"] [data-testid*="like"]:hover,
+body[data-theme="hackernews"] [data-testid*="retweet"]:hover {
+  color: rgba(255, 102, 0, 0.7) !important;
+}
+
+/* Remove rounded corners for HN aesthetic */
+body[data-theme="hackernews"] * {
+  border-radius: 0 !important;
+}
+
+/* Small text adjustments for HN feel */
+body[data-theme="hackernews"] {
+  font-size: 10pt !important;
+}
+
+/* Green Globe Theme - Environmental/Nature inspired theme */
+body[data-theme="greenglobe"] {
+  background-color: #042940 !important;
+  --color-background: 203 88% 13%;
+  --color-text: 59 46% 69%;
+  --color-border: 174 100% 18%;
+}
+
+/* Main layout areas */
+body[data-theme="greenglobe"] #react-root {
+  background-color: #042940 !important;
+}
+
+body[data-theme="greenglobe"] [data-testid="primaryColumn"],
+body[data-theme="greenglobe"] [data-testid="sidebarColumn"] {
+  background-color: #042940 !important;
+}
+
+/* CRITICAL: Force main div backgrounds */
+body[data-theme="greenglobe"] main {
+  background-color: #042940 !important;
+}
+
+body[data-theme="greenglobe"] div[data-testid="primaryColumn"] > div > div,
+body[data-theme="greenglobe"] div[data-testid="sidebarColumn"] > div > div {
+  background-color: #042940 !important;
+}
+
+/* Background color classes override */
+body[data-theme="greenglobe"] .r-14lw9ot,
+body[data-theme="greenglobe"] .r-x572qd {
+  background-color: #042940 !important;
+}
+
+body[data-theme="greenglobe"] .r-kemksi {
+  background-color: #005C53 !important;
+}
+
+/* Exclude composer areas from theming */
+body[data-theme="greenglobe"] [data-testid="toolBar"] .r-kemksi,
+body[data-theme="greenglobe"] [data-testid*="tweetTextarea"] .r-kemksi,
+body[data-theme="greenglobe"] div:has([data-testid="toolBar"]).r-kemksi,
+body[data-theme="greenglobe"] div:has([data-testid*="tweetTextarea"]).r-kemksi {
+  background-color: initial !important;
+}
+
+body[data-theme="greenglobe"] .r-yfoy6g {
+  background-color: #003833 !important;
+}
+
+/* Text color classes override */
+body[data-theme="greenglobe"] .r-18jsvk2,
+body[data-theme="greenglobe"] .r-14j79pv {
+  color: #D6D58E !important;
+}
+
+body[data-theme="greenglobe"] .r-1nao33i,
+body[data-theme="greenglobe"] .r-jwli3a,
+body[data-theme="greenglobe"] .r-vlxjld {
+  color: #DBF227 !important;
+}
+
+/* Tweet/Article styling */
+body[data-theme="greenglobe"] article[data-testid="tweet"] {
+  background-color: rgba(0, 92, 83, 0.3) !important;
+  border-color: rgba(159, 193, 49, 0.3) !important;
+}
+
+body[data-theme="greenglobe"] article[data-testid="tweet"]:hover {
+  background-color: rgba(0, 92, 83, 0.4) !important;
+  border-color: rgba(219, 242, 39, 0.4) !important;
+}
+
+body[data-theme="greenglobe"] div[data-testid="cellInnerDiv"] {
+  background-color: transparent !important;
+  border-color: rgba(159, 193, 49, 0.2) !important;
+}
+
+/* Border color classes */
+body[data-theme="greenglobe"] .r-1bnu78o,
+body[data-theme="greenglobe"] .r-lrvibr {
+  border-color: rgba(159, 193, 49, 0.2) !important;
+}
+
+/* Headers and major text elements */
+body[data-theme="greenglobe"] h1,
+body[data-theme="greenglobe"] h2,
+body[data-theme="greenglobe"] h3,
+body[data-theme="greenglobe"] h4 {
+  color: #DBF227 !important;
+}
+
+/* All text spans and divs - COMPREHENSIVE */
+body[data-theme="greenglobe"] span:not([data-testid]),
+body[data-theme="greenglobe"] div[dir="ltr"],
+body[data-theme="greenglobe"] div[dir="auto"] {
+  color: #D6D58E !important;
+}
+
+/* Specific tweet text */
+body[data-theme="greenglobe"] div[data-testid="tweetText"] {
+  color: #D6D58E !important;
+}
+
+body[data-theme="greenglobe"] div[data-testid="tweetText"] span {
+  color: inherit !important;
+}
+
+/* Links and interactive elements */
+body[data-theme="greenglobe"] a {
+  color: #9FC131 !important;
+}
+
+body[data-theme="greenglobe"] a:hover {
+  color: #DBF227 !important;
+  text-decoration: none !important;
+  background-color: rgba(159, 193, 49, 0.1) !important;
+}
+
+/* Button styling */
+body[data-theme="greenglobe"] [role="button"] {
+  color: #D6D58E !important;
+}
+
+body[data-theme="greenglobe"] [role="button"]:hover {
+  background-color: rgba(159, 193, 49, 0.1) !important;
+  color: #DBF227 !important;
+}
+
+/* Input fields - excluding composer */
+body[data-theme="greenglobe"] input:not([data-testid*="tweetTextarea"] input),
+body[data-theme="greenglobe"] textarea:not([data-testid*="tweetTextarea"] textarea) {
+  background-color: rgba(0, 92, 83, 0.2) !important;
+  border-color: rgba(159, 193, 49, 0.3) !important;
+  color: #D6D58E !important;
+}
+
+body[data-theme="greenglobe"] input:focus:not([data-testid*="tweetTextarea"] input),
+body[data-theme="greenglobe"] textarea:focus:not([data-testid*="tweetTextarea"] textarea) {
+  border-color: #9FC131 !important;
+  background-color: rgba(0, 92, 83, 0.3) !important;
+}
+
+/* Navigation and sidebar */
+body[data-theme="greenglobe"] nav[role="navigation"] {
+  background-color: #042940 !important;
+}
+
+body[data-theme="greenglobe"] [data-testid*="AppTabBar"] {
+  background-color: #042940 !important;
+  border-color: rgba(159, 193, 49, 0.2) !important;
+}
+
+body[data-theme="greenglobe"] nav a {
+  color: #D6D58E !important;
+}
+
+body[data-theme="greenglobe"] nav a:hover {
+  background-color: rgba(159, 193, 49, 0.15) !important;
+  color: #DBF227 !important;
+}
+
+body[data-theme="greenglobe"] nav a[aria-current="page"] {
+  color: #DBF227 !important;
+}
+
+/* Icons */
+body[data-theme="greenglobe"] svg {
+  color: #9FC131 !important;
+}
+
+body[data-theme="greenglobe"] svg[aria-label*="Verified"] {
+  color: #DBF227 !important;
+}
+
+/* Sidebars and panels */
+body[data-theme="greenglobe"] [data-testid="sidebarColumn"] > div > div > div > div {
+  background-color: rgba(0, 92, 83, 0.1) !important;
+  border: 1px solid rgba(159, 193, 49, 0.2) !important;
+}
+
+/* Search bar */
+body[data-theme="greenglobe"] [data-testid="SearchBox_Search_Input"] {
+  background-color: rgba(0, 92, 83, 0.3) !important;
+  color: #D6D58E !important;
+  border-color: rgba(159, 193, 49, 0.3) !important;
+}
+
+/* Bottom bar */
+body[data-theme="greenglobe"] [data-testid="BottomBar"] {
+  background-color: #042940 !important;
+  border-top-color: rgba(159, 193, 49, 0.3) !important;
+}
+
+/* Dropdown menus */
+body[data-theme="greenglobe"] [role="menu"] {
+  background-color: #005C53 !important;
+  border: 1px solid rgba(159, 193, 49, 0.3) !important;
+}
+
+body[data-theme="greenglobe"] [role="menuitem"] {
+  color: #D6D58E !important;
+}
+
+body[data-theme="greenglobe"] [role="menuitem"]:hover {
+  background-color: rgba(159, 193, 49, 0.2) !important;
+  color: #DBF227 !important;
+}
+
+/* Let composer areas use default Twitter styling */
+
+/* Trending and Who to follow sections */
+body[data-theme="greenglobe"] [data-testid="trend"],
+body[data-theme="greenglobe"] [data-testid="UserCell"] {
+  transition: background-color 0.2s ease !important;
+}
+
+body[data-theme="greenglobe"] [data-testid="trend"]:hover,
+body[data-theme="greenglobe"] [data-testid="UserCell"]:hover {
+  background-color: rgba(159, 193, 49, 0.1) !important;
+}
+
+/* Scrollbar styling */
+body[data-theme="greenglobe"] {
+  scrollbar-color: #005C53 #042940;
+}
+
+body[data-theme="greenglobe"] ::-webkit-scrollbar {
+  width: 12px;
+  background-color: #042940;
+}
+
+body[data-theme="greenglobe"] ::-webkit-scrollbar-thumb {
+  background-color: #005C53;
+  border-radius: 6px;
+  border: 2px solid #042940;
+}
+
+body[data-theme="greenglobe"] ::-webkit-scrollbar-thumb:hover {
+  background-color: #9FC131;
+}
+
+/* Common adjustments */
+body[data-theme="greenglobe"] [role="progressbar"] {
+  background-color: rgba(159, 193, 49, 0.2) !important;
+}
+
+body[data-theme="greenglobe"] [data-testid="placementTracking"] {
+  background-color: transparent !important;
+}
+
+/* Smooth transitions for theme changes */
+body[data-theme] * {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}

@@ -1,0 +1,39 @@
+# Development files
+CLAUDE.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build files
+*.zip
+*.crx
+*.pem
+
+# Node modules (if added in future)
+node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# API keys and secrets
+.env
+.env.local
+
+# Sample pages (for development only)
+samplePages/
+
+# Screenshots (for development)
+screenshots/
+assets/*.psd
+assets/*.ai
+assets/*.sketch

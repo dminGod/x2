@@ -1,0 +1,447 @@
+/* Ad replacement container - smaller and more subtle */
+.quote-container {
+  padding: 12px 16px;
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Subtle, muted quotation replacement */
+.quotation-replacement {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%);
+  border: 1px solid rgba(102, 126, 234, 0.15);
+  border-radius: 12px;
+  padding: 16px 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Remove shimmer animation for subtlety */
+.quotation-replacement::before {
+  display: none;
+}
+
+/* Small quote icon */
+.quote-icon {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 8px;
+  opacity: 0.6;
+  vertical-align: middle;
+}
+
+/* Quote text - smaller and muted */
+.quote-text {
+  display: inline;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgb(83, 100, 113);
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-shadow: none;
+}
+
+/* Author - inline and subtle */
+.quote-author {
+  display: inline;
+  font-size: 13px;
+  color: rgb(83, 100, 113);
+  font-style: normal;
+  margin-left: 8px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+/* Footer - very subtle */
+.quote-footer {
+  display: block;
+  font-size: 11px;
+  color: rgb(139, 152, 165);
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 400;
+  margin-top: 8px;
+  opacity: 0.6;
+}
+
+/* Theme-specific adjustments for ad replacements */
+
+/* Midnight theme ad replacement */
+body[data-theme="midnight"] .quotation-replacement {
+  background: rgba(26, 31, 58, 0.3);
+  border-color: rgba(42, 63, 95, 0.3);
+}
+
+body[data-theme="midnight"] .quote-text,
+body[data-theme="midnight"] .quote-author {
+  color: rgba(232, 232, 240, 0.7);
+}
+
+body[data-theme="midnight"] .quote-footer {
+  color: rgba(136, 153, 166, 0.6);
+}
+
+body[data-theme="midnight"] .quote-icon {
+  opacity: 0.5;
+}
+
+/* Forest theme ad replacement */
+body[data-theme="forest"] .quotation-replacement {
+  background: rgba(26, 47, 26, 0.3);
+  border-color: rgba(45, 74, 45, 0.3);
+}
+
+body[data-theme="forest"] .quote-text,
+body[data-theme="forest"] .quote-author {
+  color: rgba(232, 245, 232, 0.7);
+}
+
+body[data-theme="forest"] .quote-footer {
+  color: rgba(143, 181, 143, 0.6);
+}
+
+body[data-theme="forest"] .quote-icon {
+  opacity: 0.5;
+}
+
+/* Green Globe theme ad replacement */
+body[data-theme="greenglobe"] .quotation-replacement {
+  background: linear-gradient(135deg, rgba(0, 92, 83, 0.15) 0%, rgba(159, 193, 49, 0.1) 100%);
+  border: 1px solid rgba(159, 193, 49, 0.3);
+}
+
+body[data-theme="greenglobe"] .quote-text,
+body[data-theme="greenglobe"] .quote-author {
+  color: #D6D58E;
+}
+
+body[data-theme="greenglobe"] .quote-footer {
+  color: rgba(214, 213, 142, 0.6);
+}
+
+body[data-theme="greenglobe"] .quote-icon {
+  opacity: 0.6;
+  color: #9FC131;
+}
+
+/* Media Content Toggle section starts here */
+/* Media Content Toggle */
+
+/* Hide media content but keep containers with minimal height for hover */
+.media-content-hidden > div img[src*="/media/"]:not(article[data-testid="tweet"] img),
+.media-content-hidden > div div[data-testid="tweetPhoto"] img,
+.media-content-hidden > div div[data-testid="card.wrapper"] img,
+.media-content-hidden > div a[href*="t.co"] img,
+.media-content-hidden > div img[src*="card_img"],
+.media-content-hidden > div img[src*="ext_tw_video_thumb"] {
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+}
+
+/* Hide video containers more carefully to not break video loading */
+.media-content-hidden > div div[data-testid="videoPlayer"]:not(:hover),
+.media-content-hidden > div div[data-testid="videoComponent"]:not(:hover),
+.media-content-hidden > div video:not(article[data-testid="tweet"] video):not(:hover) {
+  opacity: 0 !important;
+  max-height: 100px !important;
+  overflow: hidden !important;
+}
+
+/* Collapse parent containers but keep them in DOM - but not quoted tweets */
+.media-content-hidden > div div:has(> img[src*="/media/"]):not(article),
+.media-content-hidden > div div:has(> div[data-testid="tweetPhoto"]):not(article),
+.media-content-hidden > div div[data-testid="tweetPhoto"],
+.media-content-hidden > div div[data-testid="videoPlayer"],
+.media-content-hidden > div div[data-testid="videoComponent"],
+.media-content-hidden > div a[href*="/photo/"],
+.media-content-hidden > div div[style*="padding-bottom"]:has(img):not(article),
+.media-content-hidden > div div[style*="aspect-ratio"]:has(img):not(article),
+.media-content-hidden > div div[data-testid="card.wrapper"],
+.media-content-hidden > div a[href*="t.co"]:has(img),
+.media-content-hidden > div div:has(> img[src*="card_img"]):not(article) {
+  max-height: 0 !important;
+  overflow: hidden !important;
+  transition: max-height 0.3s ease !important;
+}
+
+/* Keep profile pictures visible */
+.media-content-hidden img[src*="/profile_images/"],
+.media-content-hidden img[alt*="avatar"],
+.media-content-hidden img[alt*="profile"] {
+  visibility: visible !important;
+  height: auto !important;
+  width: auto !important;
+}
+
+/* Show content on hover - hover anywhere on tweet */
+article.media-content-hidden:hover img[src*="/media/"],
+article.media-content-hidden:hover div[data-testid="tweetPhoto"] img,
+article.media-content-hidden:hover div[data-testid="card.wrapper"] img,
+article.media-content-hidden:hover a[href*="t.co"] img,
+article.media-content-hidden:hover img[src*="card_img"],
+article.media-content-hidden:hover img[src*="ext_tw_video_thumb"] {
+  visibility: visible !important;
+  height: auto !important;
+  width: auto !important;
+  max-height: none !important;
+}
+
+/* Videos need special handling to not break loading */
+article.media-content-hidden:hover div[data-testid="videoPlayer"],
+article.media-content-hidden:hover div[data-testid="videoComponent"],
+article.media-content-hidden:hover video {
+  opacity: 1 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+article.media-content-hidden:hover div:has(> img[src*="/media/"]),
+article.media-content-hidden:hover div:has(> div[data-testid="tweetPhoto"]),
+article.media-content-hidden:hover div[data-testid="tweetPhoto"],
+article.media-content-hidden:hover div[data-testid="videoPlayer"],
+article.media-content-hidden:hover div[data-testid="videoComponent"],
+article.media-content-hidden:hover a[href*="/photo/"],
+article.media-content-hidden:hover div[style*="padding-bottom"]:has(img),
+article.media-content-hidden:hover div[style*="aspect-ratio"]:has(img),
+article.media-content-hidden:hover div[data-testid="card.wrapper"],
+article.media-content-hidden:hover a[href*="t.co"]:has(img),
+article.media-content-hidden:hover div:has(> img[src*="card_img"]) {
+  max-height: 1000px !important;
+  overflow: visible !important;
+}
+
+/* Show grid containers on hover */
+article.media-content-hidden:hover div[style*="grid-template-columns"],
+article.media-content-hidden:hover div.r-9aw3ui,
+article.media-content-hidden:hover div[aria-labelledby*="id__"]:has(a[href*="/photo/"]) {
+  display: block !important;
+}
+
+/* Show media in quoted tweets on hover */
+article.media-content-hidden:hover article[data-testid="tweet"] img[src*="/media/"],
+article.media-content-hidden:hover article[data-testid="tweet"] video,
+article.media-content-hidden:hover article[data-testid="tweet"] div[data-testid="videoPlayer"] {
+  visibility: visible !important;
+  height: auto !important;
+  max-height: none !important;
+}
+
+article.media-content-hidden:hover article[data-testid="tweet"] div:has(> img[src*="/media/"]),
+article.media-content-hidden:hover article[data-testid="tweet"] div[data-testid="tweetPhoto"],
+article.media-content-hidden:hover article[data-testid="tweet"] div[data-testid="videoPlayer"] {
+  max-height: 1000px !important;
+  overflow: visible !important;
+}
+
+
+/* Only hide media in quoted tweets, not the quoted tweet itself */
+.media-content-hidden article[data-testid="tweet"] img[src*="/media/"],
+.media-content-hidden article[data-testid="tweet"] video,
+.media-content-hidden article[data-testid="tweet"] div[data-testid="tweetPhoto"] img,
+.media-content-hidden article[data-testid="tweet"] div[data-testid="videoPlayer"] {
+  visibility: hidden !important;
+  height: 0 !important;
+  max-height: 0 !important;
+}
+
+/* Collapse only the media containers in quoted tweets */
+.media-content-hidden article[data-testid="tweet"] div:has(> img[src*="/media/"]):not(article),
+.media-content-hidden article[data-testid="tweet"] div[data-testid="tweetPhoto"],
+.media-content-hidden article[data-testid="tweet"] div[data-testid="videoPlayer"],
+.media-content-hidden article[data-testid="tweet"] a[href*="/photo/"] {
+  max-height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Hide ALL multi-image grid containers when media is hidden */
+.media-content-hidden div[style*="grid-template-columns"],
+.media-content-hidden div.r-9aw3ui,
+.media-content-hidden div[aria-labelledby*="id__"]:has(a[href*="/photo/"]) {
+  display: none !important;
+}
+
+/* But preserve quoted tweets - only hide their media */
+.media-content-hidden article[data-testid="tweet"] {
+  display: block !important;
+}
+
+.media-content-hidden article[data-testid="tweet"] div[style*="grid-template-columns"],
+.media-content-hidden article[data-testid="tweet"] div.r-9aw3ui:has(img),
+.media-content-hidden article[data-testid="tweet"] div[aria-labelledby*="id__"]:has(img) {
+  max-height: 0 !important;
+  overflow: hidden !important;
+  display: block !important;
+}
+
+/* Hacker News theme ad replacement */
+body[data-theme="hackernews"] .quotation-replacement {
+  background: #f6f6ef;
+  border: 1px solid #ff6600;
+  border-left: 3px solid #ff6600;
+  font-family: Verdana, Geneva, sans-serif !important;
+}
+
+body[data-theme="hackernews"] .quote-text,
+body[data-theme="hackernews"] .quote-author {
+  color: #000000;
+  font-family: Verdana, Geneva, sans-serif !important;
+}
+
+body[data-theme="hackernews"] .quote-footer {
+  color: #828282;
+  font-family: Verdana, Geneva, sans-serif !important;
+}
+
+body[data-theme="hackernews"] .quote-icon {
+  opacity: 0.4;
+  color: #ff6600;
+}
+
+/* Tweet Styles */
+
+/* Base font size variable - controlled by slider */
+:root {
+  --tweet-font-size: 13px;
+}
+
+/* Tweet text - uses variable font size */
+div[data-testid="tweetText"] {
+  font-size: var(--tweet-font-size) !important;
+}
+
+/* Apply font size to composer and reply text areas */
+div[data-testid*="tweetTextarea"],
+div[contenteditable="true"][role="textbox"],
+div[data-testid="dmComposerTextInput"],
+div.public-DraftEditor-content {
+  font-size: var(--tweet-font-size) !important;
+}
+
+
+
+/* Hide Grok icon on each post - controlled by toggle */
+body.hide-grok button[aria-label*="Grok"] {
+  display: none !important;
+}
+
+/* Hide stats until hovered */
+body.hide-stats article[data-testid="tweet"] div[role="group"] span {
+  opacity: 0 !important;
+  transition: opacity 0.2s ease !important;
+}
+
+body.hide-stats article[data-testid="tweet"]:hover div[role="group"] span {
+  opacity: 1 !important;
+}
+
+/* Language badge styling */
+.language-badge {
+  display: inline-block !important;
+  padding: 2px 5px !important;
+  margin-right: 8px !important;
+  background: rgba(29, 155, 240, 0.1) !important;
+  color: rgb(29, 155, 240) !important;
+  border: 1px solid rgba(29, 155, 240, 0.3) !important;
+  border-radius: 4px !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  vertical-align: middle !important;
+  cursor: default !important;
+  user-select: none !important;
+}
+
+/* Translation toggle button styling */
+.translation-toggle-btn {
+  font-family: inherit !important;
+  outline: none !important;
+  user-select: none !important;
+}
+
+.translation-toggle-btn:focus {
+  outline: 1px solid rgba(29, 155, 240, 0.5) !important;
+  outline-offset: 1px !important;
+}
+
+/* Theme-specific badge colors */
+body[data-theme="midnight"] .language-badge {
+  background: rgba(110, 163, 240, 0.15) !important;
+  color: rgb(110, 163, 240) !important;
+  border-color: rgba(110, 163, 240, 0.3) !important;
+}
+
+body[data-theme="forest"] .language-badge {
+  background: rgba(127, 200, 127, 0.15) !important;
+  color: rgb(127, 200, 127) !important;
+  border-color: rgba(127, 200, 127, 0.3) !important;
+}
+
+body[data-theme="greenglobe"] .language-badge {
+  background: rgba(159, 193, 49, 0.15) !important;
+  color: #9FC131 !important;
+  border-color: rgba(159, 193, 49, 0.3) !important;
+}
+
+body[data-theme="hackernews"] .language-badge {
+  background: rgba(255, 102, 0, 0.1) !important;
+  color: rgb(255, 102, 0) !important;
+  border-color: rgba(255, 102, 0, 0.3) !important;
+}
+
+/* Lighter sidebar content - right side */
+aside[aria-label="Trending"],
+aside[aria-label="Who to follow"],
+section[aria-label*="Trending"],
+section[aria-label*="Follow"],
+div[data-testid="sidebarColumn"] {
+  opacity: 0.5 !important;
+  transition: opacity 0.3s ease !important;
+}
+
+aside[aria-label="Trending"]:hover,
+aside[aria-label="Who to follow"]:hover,
+section[aria-label*="Trending"]:hover,
+section[aria-label*="Follow"]:hover,
+div[data-testid="sidebarColumn"]:hover {
+  opacity: 1 !important;
+}
+
+/* Lighter left navigation menu */
+nav[role="navigation"] a {
+  opacity: 0.6 !important;
+  transition: opacity 0.3s ease !important;
+}
+
+nav[role="navigation"] a:hover,
+nav[role="navigation"] a[aria-current="page"] {
+  opacity: 1 !important;
+}
+
+/* Keep the X logo always visible */
+h1[role="heading"] a {
+  opacity: 1 !important;
+}
+
+/* Custom Font Styles - Only apply to timeline tweet content */
+body.custom-font-enabled article[data-testid="tweet"] [data-testid="tweetText"],
+body.custom-font-enabled article[data-testid="tweet"] div[lang] span,
+body.custom-font-enabled article[data-testid="tweet"] div[dir="ltr"] > span,
+body.custom-font-enabled article[data-testid="tweet"] div[dir="auto"] > span {
+  font-family: var(--custom-tweet-font) !important;
+}
+
+/* Ensure custom font doesn't affect navigation, sidebar, or other elements */
+body.custom-font-enabled nav,
+body.custom-font-enabled aside,
+body.custom-font-enabled header,
+body.custom-font-enabled [role="navigation"],
+body.custom-font-enabled [data-testid="sidebarColumn"],
+body.custom-font-enabled [data-testid="primaryColumn"] > div:first-child {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}

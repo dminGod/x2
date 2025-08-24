@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X²</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header>
+      <h1>X<sup>2</sup></h1>
+    </header>
+    
+    <!-- Tab Navigation -->
+    <nav class="tab-nav">
+      <button class="tab-button active" data-tab="translate">Translate</button>
+      <button class="tab-button" data-tab="ui">UI</button>
+      <button class="tab-button" data-tab="themes">Themes</button>
+      <button class="tab-button" data-tab="model">Model Config</button>
+    </nav>
+    
+    <!-- Tab Content -->
+    <div class="tab-content">
+      
+      <!-- Translate Tab -->
+      <div id="translate-tab" class="tab-panel active">
+        <div id="api-key-warning" class="warning-message" style="display: none;">
+          ⚠️ Translation requires an API key. Please configure it in Model Config tab.
+        </div>
+        
+        <div class="target-language-section">
+          <h3>Target Language</h3>
+          <select id="targetLanguage" class="target-language-select">
+            <option value="english">English</option>
+            <option value="arabic">Arabic</option>
+            <option value="bengali">Bengali</option>
+            <option value="chinese">Chinese (Simplified)</option>
+            <option value="chinese-traditional">Chinese (Traditional)</option>
+            <option value="czech">Czech</option>
+            <option value="dutch">Dutch</option>
+            <option value="french">French</option>
+            <option value="german">German</option>
+            <option value="greek">Greek</option>
+            <option value="gujarati">Gujarati</option>
+            <option value="hebrew">Hebrew</option>
+            <option value="hindi">Hindi</option>
+            <option value="indonesian">Indonesian</option>
+            <option value="italian">Italian</option>
+            <option value="japanese">Japanese</option>
+            <option value="kannada">Kannada</option>
+            <option value="korean">Korean</option>
+            <option value="malayalam">Malayalam</option>
+            <option value="marathi">Marathi</option>
+            <option value="odia">Odia</option>
+            <option value="polish">Polish</option>
+            <option value="portuguese">Portuguese</option>
+            <option value="punjabi">Punjabi</option>
+            <option value="russian">Russian</option>
+            <option value="spanish">Spanish</option>
+            <option value="swedish">Swedish</option>
+            <option value="tamil">Tamil</option>
+            <option value="telugu">Telugu</option>
+            <option value="thai">Thai</option>
+            <option value="turkish">Turkish</option>
+            <option value="urdu">Urdu</option>
+            <option value="vietnamese">Vietnamese</option>
+          </select>
+        </div>
+        
+        <div class="auto-translation-header">
+          <h3>Auto-Translation Languages</h3>
+          <div class="toggle-wrapper">
+            <label class="toggle-label" for="enableAutoTranslation">
+              <span class="toggle-text">Enable Autotranslation</span>
+              <label class="switch">
+                <input type="checkbox" id="enableAutoTranslation">
+                <span class="slider round"></span>
+              </label>
+            </label>
+          </div>
+        </div>
+        
+        <!-- Add More Languages Button and Dropdown -->
+        <div class="add-language-section">
+          <button id="addLanguageBtn" class="add-language-btn">➕ Add More Languages</button>
+          <div id="languageDropdown" class="language-dropdown" style="display: none;">
+            <select id="languageSelect" class="language-select">
+              <option value="">Select a language...</option>
+            </select>
+            <button id="confirmAddLanguage" class="confirm-add-btn">Add</button>
+            <button id="cancelAddLanguage" class="cancel-add-btn">Cancel</button>
+          </div>
+        </div>
+        
+        <div class="translation-toggles" id="translationToggles">
+          <!-- Language toggles will be dynamically generated here -->
+        </div>
+      </div>
+      
+      <!-- UI Tab -->
+      <div id="ui-tab" class="tab-panel">
+        <h3>Interface Settings</h3>
+        
+        <div class="toggle-section">
+          <div class="toggle-item">
+            <label class="switch">
+              <input type="checkbox" id="adBlockToggle" checked>
+              <span class="slider"></span>
+            </label>
+            <span>Block Ads</span>
+          </div>
+          <div class="toggle-item">
+            <label class="switch">
+              <input type="checkbox" id="quotesToggle" checked>
+              <span class="slider"></span>
+            </label>
+            <span>Show Inspirational Quotes</span>
+          </div>
+          <div class="toggle-item">
+            <label class="switch">
+              <input type="checkbox" id="hideMediaToggle" checked>
+              <span class="slider"></span>
+            </label>
+            <span>Hide Images and Videos</span>
+          </div>
+          <div class="toggle-item">
+            <label class="switch">
+              <input type="checkbox" id="hideStatsToggle">
+              <span class="slider"></span>
+            </label>
+            <span>Hide Stats Until Hovered</span>
+          </div>
+          <div class="toggle-item">
+            <label class="switch">
+              <input type="checkbox" id="hideGrokToggle" checked>
+              <span class="slider"></span>
+            </label>
+            <span>Hide Grok Icon on Posts</span>
+          </div>
+        </div>
+        
+        <div class="slider-section">
+          <h3>Font Size</h3>
+          <div class="slider-container">
+            <input type="range" id="fontSizeSlider" min="10" max="18" value="13" step="1">
+            <div class="slider-labels">
+              <span>10px</span>
+              <span id="fontSizeValue">13px</span>
+              <span>18px</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="font-selector-section">
+          <h3>Custom Font</h3>
+          <div class="toggle-item">
+            <label class="switch">
+              <input type="checkbox" id="useCustomFontToggle">
+              <span class="slider"></span>
+            </label>
+            <span>Use custom font</span>
+          </div>
+          <div class="font-dropdown-container" id="fontDropdownContainer" style="display: none;">
+            <select id="fontSelector" class="font-selector">
+              <option value="default">Default (Twitter Font)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Themes Tab -->
+      <div id="themes-tab" class="tab-panel">
+        <div class="current-theme-line">
+          <span>Current Theme: </span><strong id="currentTheme">Original</strong>
+        </div>
+        
+        <h3>Select Theme</h3>
+        <div class="theme-options">
+          <button class="theme-btn" data-theme="original">
+            <div class="theme-preview original-preview"></div>
+            <span>Original</span>
+          </button>
+          <button class="theme-btn" data-theme="midnight">
+            <div class="theme-preview midnight-preview"></div>
+            <span>Midnight Dream</span>
+          </button>
+          <button class="theme-btn" data-theme="forest">
+            <div class="theme-preview forest-preview"></div>
+            <span>Forest Zen</span>
+          </button>
+          <button class="theme-btn" data-theme="greenglobe">
+            <div class="theme-preview greenglobe-preview"></div>
+            <span>Green Globe</span>
+          </button>
+          <button class="theme-btn" data-theme="hackernews">
+            <div class="theme-preview hackernews-preview"></div>
+            <span>Hacker News</span>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Model Config Tab -->
+      <div id="model-tab" class="tab-panel">
+        <h3>API Configuration</h3>
+        
+        <div class="api-key-container">
+          <label for="groqApiKey">Groq API Key</label>
+          <div class="api-key-input-group">
+            <input type="password" id="groqApiKey" placeholder="Enter your Groq API key">
+            <button id="saveApiKey">Save</button>
+          </div>
+        </div>
+        
+        <div class="model-selector-container">
+          <label for="modelPicker">Reading Model (for timeline)</label>
+          <select id="modelPicker">
+            <option value="llama3-8b-8192">llama3-8b-8192 (Default)</option>
+            <option value="qwen/qwen3-32b">qwen3-32b ($0.59/M)</option>
+            <option value="deepseek-r1-distill-llama-70b">deepseek-r1-distill-llama-70b ($0.99/M)</option>
+            <option value="llama-3.1-8b-instant">llama-3.1-8b-instant ($0.08/M)</option>
+            <option value="llama-3.3-70b-versatile">llama-3.3-70b-versatile ($0.79/M)</option>
+            <option value="meta-llama/llama-4-maverick-17b-128e-instruct">llama-4-maverick-17b-128e-instruct ($0.34/M)</option>
+            <option value="openai/gpt-oss-120b">gpt-oss-120b ($0.75/M)</option>
+            <option value="openai/gpt-oss-20b">gpt-oss-20b ($0.5/M)</option>
+          </select>
+        </div>
+        
+        <div class="model-selector-container">
+          <label for="writingModelPicker">Writing Model (for composing)</label>
+          <select id="writingModelPicker">
+            <option value="llama3-8b-8192">llama3-8b-8192 (Default)</option>
+            <option value="qwen/qwen3-32b">qwen3-32b ($0.59/M)</option>
+            <option value="deepseek-r1-distill-llama-70b">deepseek-r1-distill-llama-70b ($0.99/M)</option>
+            <option value="llama-3.1-8b-instant">llama-3.1-8b-instant ($0.08/M)</option>
+            <option value="llama-3.3-70b-versatile">llama-3.3-70b-versatile ($0.79/M)</option>
+            <option value="meta-llama/llama-4-maverick-17b-128e-instruct">llama-4-maverick-17b-128e-instruct ($0.34/M)</option>
+            <option value="openai/gpt-oss-120b">gpt-oss-120b ($0.75/M)</option>
+            <option value="openai/gpt-oss-20b">gpt-oss-20b ($0.5/M)</option>
+          </select>
+        </div>
+        
+        <div class="model-info">
+          <p class="info-text">💡 Choose a model based on your needs:</p>
+          <ul class="info-list">
+            <li><strong>Instant models</strong> - Fastest response times</li>
+            <li><strong>Larger models</strong> - Better translation quality</li>
+            <li><strong>Price per M</strong> - Cost per million tokens</li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <script src="popupFontLoader.js"></script>
+  <script src="languages.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
