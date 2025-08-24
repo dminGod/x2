@@ -4,19 +4,6 @@
   <img src="assets/hero_banner.png" alt="X² Extension Banner" width="800">
 </p>
 
-<p align="center">
-  <strong>Transform your Twitter/X experience with powerful features for content control, translation, and visual customization.</strong>
-</p>
-
-<p align="center">
-  <a href="#features">Features</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#setup">Setup</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#development">Development</a> •
-  <a href="#contributing">Contributing</a>
-</p>
-
 ---
 
 ## ✨ Features
